@@ -4,7 +4,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 h1 {
@@ -87,11 +86,11 @@ input[type=submit] {
   cursor: pointer;
   border-radius: 4px;
 }
-//
+
 .container {
   border: 1px solid grey;
 }
-//
+
 .description {
   text-align: center;
 }

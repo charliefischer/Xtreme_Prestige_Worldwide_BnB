@@ -49,18 +49,16 @@
     <% @listings.each do |listing| %>
     <div class="listing">
     <li id='listing-<%= listing.listing_id %>'>
+      <div class="container" id='<%= listing.host_id %>'>
+        <img class='listing-image' src= "<%= listing.image %>" alt="shack" style="max-width:30%">
+        <h3><%= listing.name %></h3>
 
-        <img src= "<%= listing.image %>" alt="shack" style="max-width:30%">
-
-      <h3><%= listing.name %></h3>
-
-      <p><%= listing.free_date %>, £<%= listing.price %>/night </p></li>
-      <a class="container">  <% listing.host_id %>
+        <p><%= listing.free_date %>, £<%= listing.price %>/night </p>
         <a class="description"> Description: <%= listing.description %> </a>
-      </a>  
-      <form action='/book-listing/<%= listing.listing_id %>' method='post'>
+        <form action='/book-listing/<%= listing.listing_id %>' method='post'>
         <input type='submit' value='Book'>
-      </form>
+        </form>
+      </div>  
     </li>
     </div>
 
