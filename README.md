@@ -1,6 +1,10 @@
 # Xtreme_Prestige_Worldwide_BnB
 
-We created a clone of Air BnB for a Makers Academy group project. This was our first time working on our own, without walkthroughs or supervision from coaches. We used agile processing, XP values and git collaboration to successfully create a website where you can sign up, sign in and sign out; add a listing with a photo, a description, a free date, and a price; see your own listing, and see other users' listings as well. 
+We created a clone of Air BnB for a Makers Academy group project. This was our first time working on our own, without walkthroughs or supervision from coaches. We used agile processing, XP values and git collaboration to successfully create a website where you can sign up, sign in and sign out; add a listing with a photo, a description, a free date, and a price; see your own listing, and see other users' listings as well.
+
+## The Site
+
+<img src='./docs/homepage.png' />
 
 ## User Stories
 
